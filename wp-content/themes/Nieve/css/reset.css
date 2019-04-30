@@ -1,0 +1,286 @@
+/*------------------------------------
+ *Author:FortunaTheme
+ *Template:Kaila
+ *Version:1.0
+ *-------------------------------------
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #383838;
+  letter-spacing: 0.8px;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 54px;
+  color: #071546;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
+  color: #071546;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 42px;
+  color: #071546;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 36px;
+  color: #071546;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 30px;
+  color: #071546;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 24px;
+  color: #071546;
+  font-weight: 600;
+}
+
+.section-title {
+	font-size: 44px;
+	margin: 0px 20px;
+	margin-bottom: 38px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title-small {
+	font-size: 12px;
+	color: #999;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1.8px;
+	text-align: center;
+	transform: scale(1.1,1);
+	width: 500px;
+	margin: 0 auto;
+	padding-bottom: 8px;
+}
+
+.sub-header {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 0.8px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: 0;
+  color: #000;
+}
+
+.padding-style1 {
+  padding: 100px 0;
+}
+
+.padding-style2 {
+  padding: 80px 0;
+}
+
+.animation {
+  opacity: 0;
+}
+
+.btn-style1 {
+  padding: 10px 22px;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  transition: all 0.5s;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-style1:hover {
+  background-color: #ececec;
+  color: #000;
+}
+
+.btn-style2 {
+	padding: 9px 26px;
+	color: #000;
+	display: inline-block;
+	transition: all 0.5s;
+	border: 2px solid #FD7250;
+	font-weight: 500;
+	border-radius: 50px;
+}
+
+.btn-style2:hover,
+.btn-style2:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-style3 {
+	padding: 11px 24px;
+	color: #fff;
+	display: inline-block;
+	transition: all 0.5s;
+	font-weight: 500;
+	border-radius: 50px;
+	background: linear-gradient(to right, rgba(255,82,47,1) 0%, rgba(221,36,119,1) 100%);
+}
+
+.btn-style3:hover,
+.btn-style3:focus {
+  background-color: #E06C50;
+  color: #fff;
+}
+
+.preloader {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999;
+}
+
+.preloader-img {
+  background-image: url(https://latahsin.github.io/nieve/wp-content/themes/Nieve/images/loading.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 50%;
+  width: 200px;
+}
+
+#scroll-top-area {
+	position: fixed;
+	bottom: 64px;
+	right: 0px;
+	z-index: 8;
+	display: none;
+	background: #fd8064;
+	padding: 3px 15px;
+	border-radius: 32px;
+}
+
+#scroll-top-area span,
+#scroll-top-area i {
+  display: inline-block;
+  color:#fff;
+}
+
+#scroll-top-area span {
+  font-weight: 500;
+  color: #808080;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+
+#scroll-top-area i {
+	text-align: center;
+	line-height: 38px;
+	color: #fff;
+}
+
+.display-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.display-content {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.client-testimonial .owl-theme .owl-nav [class*="owl-"] {
+	color: #fff;
+	padding: 4px 11px;
+	background: #fd8064;
+	border-radius: 0px;
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #bdbdbd;
+}
+
+.title-underline {
+  width: 15px;
+  height: 6px;
+  background: #000;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.title-underline::before {
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  right: 15px;
+  top: 2px;
+}
+
+.title-underline::after {
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 15px;
+  top: 2px;
+}
